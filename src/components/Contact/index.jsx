@@ -1,47 +1,29 @@
 import React from 'react'
-
+import { Carousel } from 'antd';
 const Contact = () => {
+  const contentStyle = {
+    height: '160px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79',
+  };
   return (
     <section className='contact section bd-container' id='contact'>
-      <h2 className='section__title'>Liên hệ</h2>
-      <p className='section__description'>
-        Quy tụ đội ngũ chuyên gia giàu kinh nghiệm luôn cập nhật những xu hướng
-        công nghệ mới
-      </p>
-      <div className='contact__container bd-grid'>
-        <div className='contact__data'>
-          <div className='contact__info'>
-            <ion-icon name='locate' className='contact__icon'></ion-icon>
-            <p>
-              Số 115/30 Lê Quang Định, phường 14, quận Bình Thạnh, Tp. Hồ Chí
-              Minh.
-            </p>
-          </div>
-          <div className='contact__info'>
-            <ion-icon name='mail-outline' className='contact__icon'></ion-icon>
-            <p>Email:support@vinorsoft.com</p>
-          </div>
-          <div className='contact__info'>
-            <ion-icon name='call-outline' className='contact__icon'></ion-icon>
-            <p>Phone: (028) 62715899</p>
-          </div>
+      <Carousel autoplay>
+        <div>
+          <h3 style={contentStyle}>1</h3>
         </div>
-        <div className='contact__form'>
-          <form className='formContent'>
-            <div className='formItemWrap'>
-              <div className='formItem'>
-                <input name='name' placeholder='Họ tên' type='text' required />
-              </div>
-              <div className='formItem'>
-                <input name='email' type='email' required placeholder='Email' />
-              </div>
-            </div>
-            <input name='title' type='text' placeholder='Tiêu đề' required />
-            <textarea name='content' placeholder='Nội dung' required></textarea>
-            <button className='submitBtn'>Gửi</button>
-          </form>
+        <div>
+          <h3 style={contentStyle}>2</h3>
         </div>
-      </div>
+        <div>
+          <h3 style={contentStyle}>3</h3>
+        </div>
+        <div>
+          <h3 style={contentStyle}>4</h3>
+        </div>
+      </Carousel>
     </section>
   )
 }

@@ -1,0 +1,25 @@
+.slide__container {
+    display: flex;
+    padding: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide__item {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.slide__item.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.01);
+}
+
+.images {
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    height: 600px;
+}
