@@ -8,12 +8,12 @@
 
 .slide__item {
     opacity: 0;
-    transition-duration: 1s;
+    transition:all ease 1s;
 }
 
 .slide__item.active {
     opacity: 1;
-    transition-duration: 1s;
+    transition:all ease 1s;
     transform: scale(1.01);
 }
 
