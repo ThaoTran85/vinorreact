@@ -1,5 +1,5 @@
 import React from 'react'
-import doitac from '../../img/doitac.png'
+import doitac from '../../img/kh.jpg'
 const Customer = () => {
   return (
     <section className='profile section bd-container' id='customer'>

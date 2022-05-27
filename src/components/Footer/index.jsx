@@ -30,7 +30,7 @@ const Footer = () => {
             <li className='footer__description'>Địa chỉ: Số 115/30 Lê Quang Định
               Phường 14, quận Bình Thạnh
               Tp. Hồ Chí Minh.</li>
-            <li className='footer__description'>Phone: (028)62715899</li>
+            <li className='footer__description'>Phone:  (028) 62788823</li>
             <li className='footer__description'>Email: support@vinorsoft.com</li>
           </ul>
         </div>

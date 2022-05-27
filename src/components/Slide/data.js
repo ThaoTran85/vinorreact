@@ -1,33 +1,34 @@
-import nangluc1 from '../../img/nangluc1.png'
-import nangluc2 from '../../img/nangluc2.png'
-import nangluc3 from '../../img/nangluc5.png'
-import nangluc4 from '../../img/nangluc6.png'
-// import nangluc5 from '../../img/nangluc7.png'
-import nangluc6 from '../../img/nangluc8.png'
-import nangluc7 from '../../img/nangluc9.jpeg'
-// import nangluc8 from '../../img/nangluc10.jpeg'
-import nangluc9 from '../../img/nangluc11.jpeg'
-// import nangluc10 from '../../img/nangluc12.png'
-import nangluc11 from '../../img/nangluc13.png'
-import nangluc12 from '../../img/nangluc14.png'
-import nangluc13 from '../../img/nangluc15.png'
-import nangluc14 from '../../img/nangluc16.png'
-import nangluc15 from '../../img/nangluc17.png'
-import nangluc16 from '../../img/nangluc18.png'
-import nangluc17 from '../../img/nangluc19.png'
+import slide1 from '../../img/slide1.jpg'
+import slide2 from '../../img/slide2.jpg'
+import slide3 from '../../img/slide3.png'
+import slide4 from '../../img/slide4.jpg'
+import slide5 from '../../img/slide5.jpg'
+import slide6 from '../../img/slide6.jpg'
+import slide7 from '../../img/slide7.png'
+import slide8 from '../../img/slide8.jpg'
+import slide9 from '../../img/slide9.png'
+import slide10 from '../../img/slide10.png'
+import slide11 from '../../img/slide11.jpg'
+import slide12 from '../../img/slide12.png'
+import slide13 from '../../img/slide13.png'
+import slide14 from '../../img/slide14.png'
+import slide15 from '../../img/slide15.png'
+import slide16 from '../../img/slide16.png'
 export const data = [
-    nangluc1,
-    nangluc2,
-    nangluc3,
-    nangluc4,
-    nangluc6,    
-    nangluc7,    
-    nangluc9,
-    nangluc11,
-    nangluc12,
-    nangluc13,
-    nangluc14,
-    nangluc15,
-    nangluc16,
-    nangluc17,
+    slide1,
+    slide2,
+    slide3,
+    slide4,
+    slide5,
+    slide6,    
+    slide7,    
+    slide8,    
+    slide9,
+    slide10,
+    slide11,
+    slide12,
+    slide13,
+    slide14,
+    slide15,
+    slide16,
 ]
