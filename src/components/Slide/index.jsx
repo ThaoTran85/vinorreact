@@ -12,13 +12,11 @@ const Slide = () => {
     const handleNextBtn = () => {
         setCurrent(current == length - 1 ? 0 : current + 1)
     }
-    const id = setTimeout(() => {
+    setTimeout(() => {
         // setCurrent(prev => prev + 1)handleNextBtn
         handleNextBtn()
     }, 3000)
-    useEffect(() => {
-        return clearTimeout(id)
-    })
+
     console.log(current)
     return (
         <section className='products section bd-container' id='profile'>
