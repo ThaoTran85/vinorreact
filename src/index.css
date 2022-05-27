@@ -391,28 +391,35 @@ img {
 @media screen and (max-width: 500px) {
   .home__data {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding: 10px;
     z-index: 2;
-    color: #fff;
     text-transform: uppercase;
   }
 
   .home__container {
     background-size: 100%;
+    background-position: bottom;
     /* opacity: 0.8; */
     z-index: 3;
-    height: 80vh;
+    height: 70vh;
   }
   .section {
     padding: 2rem 0;
+  }
+  .button {
+display: none;
+  }
+  .home__title {
+    color: var(--first-color)
+  }
+  .home__description {
+    text-transform: lowercase;
   }
 }
 
