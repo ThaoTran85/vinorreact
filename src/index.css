@@ -199,7 +199,7 @@ img {
   justify-content: center;
 }
 .nav__logo img {
-  width: 80%;
+  width: 50%;
   height: 100%;
   object-fit: cover;
   display: block;
@@ -348,6 +348,7 @@ img {
   border-radius: 0.5rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
+
   border: 1px solid var(--first-color);
 }
 
@@ -365,6 +366,7 @@ img {
 .button:hover {
   border: 1px solid #007bff;
   background-color: transparent;
+  color: #007bff;
 }
 
 @media screen and (max-width: 967px) {

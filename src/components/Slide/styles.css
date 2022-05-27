@@ -9,17 +9,36 @@
 .slide__item {
     opacity: 0;
     transition:all ease 1s;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slide__item.active {
     opacity: 1;
     transition:all ease 1s;
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
 }
 
 .images {
     border-radius: 10px;
     width: 100%;
     display: block;
-    height: 600px;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid royalblue;
+    padding: 5px;
 }
+@media screen and (max-width: 500px) {
+.slide__item {
+    height: 200px;
+}
+
+.images {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+  }
